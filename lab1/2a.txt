@@ -1,0 +1,23 @@
+flag <- true
+Input equation
+eq[] <-equation.toCharArray
+for i = 0 to eq.length
+    if ( or { or [
+        push(eq[i])
+    else if ) or } or ]
+        TopCheck <- top()
+        if eq[i] = ) and TopCheck != ( or eq[i] = ] and TopCheck != [ or eq[i] = } and TopCheck != {
+            Output Unbalanced
+        else pop(eq[i])
+    else if 0-9 or + or - or / or *
+        continue
+    else
+        flag <- false
+        break
+    {increment i}
+if(isEmpty and temp <- W)
+    Output "Balanced"
+else
+    Output "Unbalanced"
+
+T(n) = 61n + 7 O(n)

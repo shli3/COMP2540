@@ -1,0 +1,23 @@
+flag <- false
+Input talk
+for i = 0 to talk.length
+    if '0'
+        if !flag
+            push(talk.charAt(i))
+        else
+            Output no
+            return
+    if '1'
+        flag <- true
+        if Stack.top = '0'
+            pop.(talk.charAt(i))
+        else
+            Output no
+    else
+        Output no
+if counter != 0
+    Output no
+else
+    Output Yes
+
+T(n) = 10n + 7 O(n)

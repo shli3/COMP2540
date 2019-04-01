@@ -1,0 +1,12 @@
+foundflag <- false
+while not end of array
+    if entry k found 
+        foundflag <- true
+        while not end of array
+            array[element] <- array[element + 1]
+            element++
+    if foundflag is true
+        size--
+        break
+if foundflag is false  
+    return null
